@@ -1,0 +1,16 @@
+name: triggers
+on:
+ push:
+  branches:
+   - master
+   - development
+  tags:
+   - v1
+   - v2
+jobs:
+ echo-triggers:
+  runs-on: windows-latest
+  steps:
+   - name: windows platform
+     shell: bash
+     run: echo "windwos platform"
