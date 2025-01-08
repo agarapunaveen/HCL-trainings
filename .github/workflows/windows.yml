@@ -1,0 +1,11 @@
+name: windows runner
+
+run-name: windows runner
+
+on: push
+jobs:
+ Echo-Build:
+  runs-on: windows-latest
+  steps: 
+   - name: windows runner
+     run: echo "windows-runner"
