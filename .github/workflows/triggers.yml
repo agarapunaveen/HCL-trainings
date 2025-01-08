@@ -1,0 +1,9 @@
+name: triggers
+on:
+ push
+jobs:
+ echo-triggers:
+  runs-on: windows-latest
+  steps:
+   - name: windows platform
+     run: echo "windwos platform" 
