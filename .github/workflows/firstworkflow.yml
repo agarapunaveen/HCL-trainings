@@ -1,1 +1,11 @@
+name: first workflow
 
+run-name: first workflow in github actions
+
+on: push
+jobs:
+ Echo-Build:
+  runs-on: ubuntu-latest
+  steps: 
+   - name: first step
+     run: echo "first workflow"
