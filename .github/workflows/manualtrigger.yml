@@ -1,0 +1,10 @@
+name: triggers
+on:
+ workflow_dispatch:
+jobs:
+ echo-triggers:
+  runs-on: windows-latest
+  steps:
+   - name: windows platform
+     shell: bash
+     run: echo "windwos platform"
