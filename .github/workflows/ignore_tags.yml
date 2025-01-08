@@ -1,0 +1,14 @@
+name: tags_ignore
+on:
+ push:
+  branches-ignore:
+   - development
+  tags-ignore:
+   - v2
+jobs:
+ echo-triggers:
+  runs-on: windows-latest
+  steps:
+   - name: windows platform
+     shell: bash
+     run: echo "windwos platform"
