@@ -5,7 +5,6 @@ jobs:
  echo-actions:
   runs-on: ubuntu-latest
   steps: 
-   - name: setup javaJDK
    - uses: actions/setup-java@v4.6.0
      with:
       distribution: 'microsoft'
